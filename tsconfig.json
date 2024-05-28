@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compileOnSave": false,
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {},
+      "lib": ["DOM", "DOM.Iterable", "ES2022"],
+      "isolatedModules": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "strict": true,
+      "allowJs": true,
+      "forceConsistentCasingInFileNames": true,
+      "rootDir": ".",
+      "sourceMap": false,
+      "declaration": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "target": "ES2022",
+      "noUncheckedIndexedAccess": true,
+      "module": "esnext",
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "noEmit": true,
+      "jsx": "react-jsx"
+    },
+    "exclude": ["node_modules", "tmp"]
+  }
+  

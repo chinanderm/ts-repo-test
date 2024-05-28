@@ -1,0 +1,1 @@
+import{j as e}from"./jsx-runtime-56DGgGmo.js";function n(){return"foo"}function r(){return"bar"}function t(){return e.jsxs("div",{children:[e.jsx("h1",{children:"Index Page"}),e.jsx("p",{children:"Welcome to the index page!"}),e.jsxs("p",{children:[n(),r()]})]})}export{t as default};
